@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://doda-chat.herokuapp.com/");
 
 const urlSearch = new URLSearchParams(window.location.search);
 const username = urlSearch.get('username');
